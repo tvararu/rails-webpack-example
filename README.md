@@ -22,7 +22,7 @@ $ # open new shell
 $ open http://localhost:3000
 ```
 
-Edit `app/javascript/components/Hello.jsx`, and marvel at how the content that was dynamically rendered by JavaScript in your browser will update without a full page reload.
+Edit `app/javascript/components/Hello.jsx`, and marvel at how the content that was dynamically rendered by JavaScript in your browser will update without a full page reload and while maintaining the application's state.
 
 ## License
 
