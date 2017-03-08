@@ -19,6 +19,7 @@ module.exports = merge(sharedConfig.config, {
   plugins: [
     new webpack.LoaderOptionsPlugin({
       debug: true
-    })
+    }),
+    new webpack.NamedModulesPlugin()
   ]
 })

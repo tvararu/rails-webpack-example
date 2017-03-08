@@ -17,12 +17,19 @@ const config = {
     (map, entry) => {
       const basename = path.basename(entry, extname(entry))
       const localMap = map
-      localMap[basename] = path.resolve(entry)
+      localMap[basename] = [
+        'react-hot-loader/patch',
+        path.resolve(entry)
+      ]
       return localMap
     }, {}
   ),
 
-  output: { filename: '[name].js', path: path.resolve('public', distDir) },
+  output: {
+    filename: '[name].js',
+    path: path.resolve('public', distDir),
+    publicPath: 'http://localhost:8080/'
+  },
 
   module: {
     rules: [
