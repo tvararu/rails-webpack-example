@@ -11,6 +11,8 @@ $ ruby -v
 ruby 2.4.0p0 (2016-12-24 revision 57164) [x86_64-darwin15]
 $ bundle -v
 Bundler version 1.14.6
+$ yarn --version
+0.20.3
 $ git clone git@github.com:tvararu/rails-webpack-example.git
 $ cd rails-webpack-example
 $ bundle
