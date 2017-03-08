@@ -13,6 +13,9 @@ $ bundle -v
 Bundler version 1.14.6
 $ yarn --version
 0.20.3
+```
+
+```bash
 $ git clone git@github.com:tvararu/rails-webpack-example.git
 $ cd rails-webpack-example
 $ bundle
